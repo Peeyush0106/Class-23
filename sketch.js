@@ -10,7 +10,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  box = new Box(300, 190, 50, 100);
+  box = new Box(320, 100, 50, 100);
   box2 = new Box(300, 200, 50, 30);
 
   ground = new Ground(400, 390, 800, 20);

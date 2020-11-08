@@ -1,11 +1,11 @@
 class Box {
     constructor(x, y, width, height) {
         var body_options = {
-            restitution : 0.8, friction : 1
+            restitution : 0.8, friction : 0.001
         }
         this.body = Bodies.rectangle(x, y, width, height, body_options);
-        this.x = x;
-        this.y = y;
+        // this.x = x;
+        // this.y = y;
         this.width = width;
         this.height = height;
         World.add(world, this.body);
