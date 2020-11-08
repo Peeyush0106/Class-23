@@ -12,7 +12,6 @@ function setup() {
 
   box = new Box(320, 100, 50, 100);
   box2 = new Box(300, 200, 50, 30);
-
   ground = new Ground(400, 390, 800, 20);
 
   // var ball_options = {
